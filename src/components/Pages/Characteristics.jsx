@@ -11,7 +11,14 @@ const Characteristics = () => {
     ]
     return (
         <div className="w-full text-center">
-            
+            <div className="gap-5 my-16 grid grid-cols-2 md:grid-cols-4">
+                {filterItems.map((item) =>
+                <div key={item.id}
+                >
+                    <p>{item.label}</p>
+                </div>
+                )}
+            </div>
         </div>
     );
 };

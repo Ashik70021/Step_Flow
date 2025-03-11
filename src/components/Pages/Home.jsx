@@ -1,4 +1,5 @@
 import ProgressBar from "../ProgressBar";
+import Characteristics from "./Characteristics";
 import Heading from "./Heading";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <ProgressBar></ProgressBar>
             <Heading></Heading>
+            <Characteristics></Characteristics>
         </div>
     );
 };
